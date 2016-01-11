@@ -37,4 +37,4 @@ ehthumbs.db
 Desktop.ini
 node_modules
 tmp
-
+.git-*
