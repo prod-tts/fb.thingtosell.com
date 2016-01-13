@@ -1,6 +1,7 @@
 DATE=$(date)
 PWD=$(pwd)
 MONGO_URL="mongodb://10.101.101.3:27017/fbthingtosell"
+PORT=3009
 
 echo $DATE
 echo "Starting all processes owned by $PWD ..."
@@ -8,4 +9,4 @@ echo "Starting all processes owned by $PWD ..."
 #[ ! -f ./node_modules ] && npm install
 #[ ! -f ./bower_components ] && bower install
 # npm install && bower install
-MONGO_URL=mongodb://10.101.101.3:27017/fbthingtosell $HOME/.meteor/meteor --production --settings $PWD/settings.json --port 3011
+MONGO_URL=mongodb://10.101.101.3:27017/fbthingtosell $HOME/.meteor/meteor --production --settings $PWD/settings.json --port $PORT
