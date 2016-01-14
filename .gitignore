@@ -38,3 +38,4 @@ Desktop.ini
 node_modules
 tmp
 .git-*
+meteor-settings

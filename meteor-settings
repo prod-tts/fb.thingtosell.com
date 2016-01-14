@@ -1,2 +1,0 @@
-export DB=mongodb://10.0.0.3:27017/fb-tts
-export PORT=3011
