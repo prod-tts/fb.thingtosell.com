@@ -1,4 +1,4 @@
-export MONGO_URL=mongodb://10.0.0.3:27017/fb-tts
-export MONGO_OPLOG_URL=mongodb://10.0.0.3:27017/local
+export MONGO_URL=mongodb://10.101.10.3:27017/fb-tts
+export MONGO_OPLOG_URL=mongodb://10.101.101.3:27017/local
 export USE_JSESSIONID=1
 export PORT=3011
